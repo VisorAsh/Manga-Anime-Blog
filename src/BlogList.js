@@ -1,5 +1,5 @@
 
-function BlogList({blogs, title, HandleDelete}) {
+function BlogList({blogs, title}) {
 
 
     return (
@@ -11,7 +11,6 @@ function BlogList({blogs, title, HandleDelete}) {
                         <a href="" className="blog-titre">{blog.title}</a>
                         <small className="blog-publication-date">Publié le {blog.date}</small>
                         <p className='blog-author'>Auteur de l'oeuvre: {blog.author}</p>
-                        <button onClick={() => HandleDelete(blog.id)}>Supprimer cet article</button>
                     </div>
                 ))
             }
@@ -19,4 +18,4 @@ function BlogList({blogs, title, HandleDelete}) {
     )
 }
 
-export default BlogList
+export default BlogList;
