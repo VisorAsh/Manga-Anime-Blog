@@ -1,22 +1,9 @@
 {
     "blogs": [
         {
-            "id": 1,
-            "title": "aliquet nec, imperdiet nec, leo.",
-            "body": "a, dui. Cras pellentesque. Sed dictum. Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu eros. Nam consequat dolor vitae dolor. Donec fringilla. Donec feugiat metus sit amet ante. Vivamus non lorem vitae odio sagittis semper. Nam tempor diam dictum sapien. Aenean massa. Integer vitae nibh. Donec est mauris, rhoncus id, mollis nec, cursus a, enim. Suspendisse aliquet, sem ut cursus luctus, ipsum leo elementum sem, vitae aliquam eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est,",
-            "author": "Grant",
-            "date": "02/01/2021"
-        },
-        {
-            "id": 2,
-            "title": "bibendum ullamcorper. Duis cursus, diam",
-            "body": "cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum non, hendrerit id, ante. Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit, est ac facilisis facilisis, magna tellus faucibus leo, in lobortis tellus justo sit amet nulla. Donec non justo. Proin non massa non ante bibendum",
-            "author": "Oren",
-            "date": "02/01/2021"
-        },
-        {
             "id": 3,
             "title": "Kingdom",
+            "entré": "Synopsis:",
             "body": "Dans cette Chine ancestrale, Shin est originaire de l'État de Qin en proie à de nombreux soubresauts aussi bien à l'intérieur du royaume, qu'à l'extérieur. En effet, l'histoire se déroule durant la période des Royaumes combattants, quand la Chine était divisée entre sept royaumes : Qin, Zhao, Han, Wei, Chu, Yan et Qi.Dans cette Chine ancestrale, Shin est originaire de l'État de Qin en proie à de nombreux soubresauts aussi bien à l'intérieur du royaume, qu'à l'extérieur. En effet, l'histoire se déroule durant la période des Royaumes combattants, quand la Chine était divisée entre sept royaumes : Qin, Zhao, Han, Wei, Chu, Yan et Qi.",
             "author": "Yasuhisa Hara",
             "date": "29 Aoùt 2022"
@@ -24,6 +11,7 @@
         {
             "id": 4,
             "title": "Kimetsu no yaiba",
+            "entré": "Synopsis:",
             "body": "Un petit marchand de charbon nommé Tanjiro vit une vie sans histoire dans les montagnes. Jusqu’au jour tragique où, après une courte absence, il retrouve son village et sa famille massacrés par un ogre ! La seule survivante de cette tragédie est sa jeune sœur Nezuko. Hélas, au contact de la bête, celle-ci s’est à son tour métamorphosée en monstre. Afin de renverser le processus et de venger sa famille, Tanjiro décide de partir en quête de vérité. Pour le jeune héros et sa sœur, c’est une longue aventure de sang et d’acier qui commence !",
             "author": "Koyoharu Gotouge",
             "date": "29 Aoùt 2022"
@@ -31,13 +19,15 @@
         {
             "id": 5,
             "title": "Jujutsu Kaisen",
-            "body": "Yuji Itadori, un lycéen, se retrouve confronté aux forces occultes et est enrôlé dans une école d'exorcisme le jour où il se voit possédé par le démon millénaire Ryomen Sukuna",
+            "entré": "Synopsis:",
+            "body": "Yuji Itadori, un lycéen, se retrouve confronté aux forces occultes et est enrôlé dans une école d'exorcisme le jour où il se voit possédé par le démon millénaire Ryomen Sukuna.",
             "author": "Gege Akutami",
             "date": "30 Aoùt 2022"
         },
         {
             "id": 6,
             "title": "Nanatsu no Taizai",
+            "entré": "Synopsis:",
             "body": "Il y a dix ans, un groupe de Chevaliers Sacrés renégats appelé les Seven Deadly Sins s'est rebellé contre les Chevaliers Sacrés, la garde du royaume. Depuis, ils ont disparu et personne ne sait ce qu'ils sont devenus.",
             "author": "Suzuki Nabata",
             "date": "05 Septembre 2022"
@@ -45,7 +35,8 @@
         {
             "id": 7,
             "title": "Death Note",
-            "body": "Light Yagami est un lycéen surdoué qui juge le monde actuel criminel, pourri et corrompu. Sa vie change du tout au tout le jour où il ramasse par hasard un mystérieux cahier intitulé « Death Note ». Son mode d'emploi indique que « la personne dont le nom est écrit dans ce cahier meurt ». D'abord sceptique, Light décide toutefois de tester le cahier et découvre que son pouvoir est bien réel. Il rencontre l'ancien propriétaire du Death Note, un dieu de la mort nommé Ryûk. Celui-ci déclare avoir volontairement laissé tomber son carnet dans le but de se divertir. Light décide d'utiliser le Death Note pour exterminer les criminels, dans le but de bâtir un monde parfait dont il sera le dieu. Il apprend peu à peu à se servir des pouvoirs du cahier et de ses règles : l'utilisateur ne peut tuer une personne que s'il connait son visage, en y inscrivant son prénom et son nom de famille. Il peut également en préciser la cause et les circonstances détaillées, la cause par défaut étant la crise cardiaque. Les nombreuses morts inexpliquées de criminels à travers le monde attirent l'attention d'Interpol et du mystérieux L, un détective particulièrement talentueux, mais dont personne ne connaît l'identité. L décide d'enquêter sur le tueur en série, surnommé « Kira » (キラ?, dérivé de la prononciation japonaise de « killer ») par le grand public",
+            "entré": "Synopsis:",
+            "body": "Light Yagami est un lycéen surdoué qui juge le monde actuel criminel, pourri et corrompu. Sa vie change du tout au tout le jour où il ramasse par hasard un mystérieux cahier intitulé « Death Note ». Son mode d'emploi indique que « la personne dont le nom est écrit dans ce cahier meurt ». D'abord sceptique, Light décide toutefois de tester le cahier et découvre que son pouvoir est bien réel. Il rencontre l'ancien propriétaire du Death Note, un dieu de la mort nommé Ryûk. Celui-ci déclare avoir volontairement laissé tomber son carnet dans le but de se divertir. Light décide d'utiliser le Death Note pour exterminer les criminels, dans le but de bâtir un monde parfait dont il sera le dieu. Il apprend peu à peu à se servir des pouvoirs du cahier et de ses règles : l'utilisateur ne peut tuer une personne que s'il connait son visage, en y inscrivant son prénom et son nom de famille. Il peut également en préciser la cause et les circonstances détaillées, la cause par défaut étant la crise cardiaque. Les nombreuses morts inexpliquées de criminels à travers le monde attirent l'attention d'Interpol et du mystérieux L, un détective particulièrement talentueux, mais dont personne ne connaît l'identité. L décide d'enquêter sur le tueur en série, surnommé « Kira » (キラ?, dérivé de la prononciation japonaise de « killer ») par le grand public.",
             "author": "Tsugumi Oba",
             "date": "05 Septembre 2022"
         }

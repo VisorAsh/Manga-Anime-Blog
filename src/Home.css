@@ -54,3 +54,11 @@
 .err-message{
     color: red;
 }
+
+.blog-entré {
+    /* font-style: italic; */
+    color: #5c5b5b;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+}

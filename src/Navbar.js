@@ -1,18 +1,19 @@
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
     <nav className="navbar">
         <div>
-            <a href="" className="logo">Manga/Anime Blog</a>
+            <Link to="/" className="logo">Manga/Anime Blog</Link>
         </div>
 
         <ul className="liens">
             <li>
-                <a href="" className="lien">Acceuil</a>
+                <Link to="/" className="lien">Acceuil</Link>
             </li>
             <li>
-                <a href="" className="lien buttonArticle">Ajouter un article</a>
+                <Link to="/add" className="lien buttonArticle">Ajouter un manga</Link>
             </li>
         </ul>
     </nav>
