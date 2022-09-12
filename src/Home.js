@@ -4,7 +4,7 @@ import Recup from './Recup';
 
 function Home() {
 
-    const {data: blogs, isLoading, error} = Recup("http://localhost:8000/blogs");
+    const {data: blogs, isLoading, error} = Recup("http://localhost:8000/blogs?_sort=id&_order=desc");
     
     return (
             <div className="home">

@@ -1,10 +1,21 @@
 import { useParams } from "react-router-dom";
 import Recup from "./Recup";
+import { useHistory } from "react-router-dom";
 
 const BlogDetail = () => {
 
     const { id } = useParams();
     const { data: blog, isLoading, error} = Recup('http://localhost:8000/blogs/'+id);
+    const history = useHistory();
+
+    const HandleDelete = () => {
+        fetch('http://localhost:8000/blogs/'+id, {
+            method: 'DELETE'
+        }).then( () => {
+            console.log('Article supprimé');
+            history.push('/')
+        }) 
+    }
 
     return ( 
         <div className="">
@@ -17,6 +28,7 @@ const BlogDetail = () => {
                     <p className="blog-entré">{blog.entré}</p>
                     <p className="blog-body">{blog.body}</p>
                     <p className="blog-author">{`Auteur de l'oeuvre: ${blog.author}`}</p>
+                    <button onClick={ HandleDelete } className="btn-danger">Supprimer de la liste</button>
                 </div>
             )}
         </div>

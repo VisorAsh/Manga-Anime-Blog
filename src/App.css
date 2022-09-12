@@ -14,3 +14,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* .btn-danger{
+  background: #fff;
+  color: #fc1f02;
+} */
+
+.not-found{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.not-found a{
+  text-decoration: none;
+  color: #028bfc;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
